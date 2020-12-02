@@ -233,12 +233,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chipmob/yii2-attachment.git",
-                "reference": "e66151e6ca377cb17f1bc6d40bb6002c0e18db95"
+                "reference": "bfa5a52bf54be298a6c8ae38329104e7d63b7428"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chipmob/yii2-attachment/zipball/e66151e6ca377cb17f1bc6d40bb6002c0e18db95",
-                "reference": "e66151e6ca377cb17f1bc6d40bb6002c0e18db95",
+                "url": "https://api.github.com/repos/chipmob/yii2-attachment/zipball/bfa5a52bf54be298a6c8ae38329104e7d63b7428",
+                "reference": "bfa5a52bf54be298a6c8ae38329104e7d63b7428",
                 "shasum": ""
             },
             "require": {
@@ -278,7 +278,7 @@
                 "issues": "https://github.com/chipmob/yii2-attachment/issues?state=open",
                 "source": "https://github.com/chipmob/yii2-attachment"
             },
-            "time": "2020-11-24T08:11:00+00:00"
+            "time": "2020-12-01T20:19:40+00:00"
         },
         {
             "name": "chipmob/yii2-user",

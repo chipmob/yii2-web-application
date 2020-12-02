@@ -1,7 +1,7 @@
 .idea
 .env
-yii
+/yii
 /vendor
 /app/web/index.php
 /app/web/robots.txt
-deploy.sh
+/deploy.sh

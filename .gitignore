@@ -1,0 +1,7 @@
+.idea
+.env
+yii
+/vendor
+/app/web/index.php
+/app/web/robots.txt
+deploy.sh

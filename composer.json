@@ -49,12 +49,12 @@
       "url": "https://asset-packagist.org"
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/chipmob/yii2-user"
+      "type": "path",
+      "url": "../yii2-user"
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/chipmob/yii2-attachment"
+      "type": "path",
+      "url": "../yii2-attachment"
     }
   ]
 }

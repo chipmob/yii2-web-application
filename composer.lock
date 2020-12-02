@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "301f77f9810fd59399f26149d6c32595",
+    "content-hash": "82a2cf8168318af3c3e82290681b1fc2",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -230,16 +230,10 @@
         {
             "name": "chipmob/yii2-attachment",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/chipmob/yii2-attachment.git",
-                "reference": "bfa5a52bf54be298a6c8ae38329104e7d63b7428"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/chipmob/yii2-attachment/zipball/bfa5a52bf54be298a6c8ae38329104e7d63b7428",
-                "reference": "bfa5a52bf54be298a6c8ae38329104e7d63b7428",
-                "shasum": ""
+                "type": "path",
+                "url": "../yii2-attachment",
+                "reference": "bfa5a52bf54be298a6c8ae38329104e7d63b7428"
             },
             "require": {
                 "bower-asset/jquery-colorbox": "*",
@@ -249,7 +243,6 @@
                 "yiisoft/yii2": "~2.0",
                 "yiisoft/yii2-bootstrap4": "~2.0"
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
@@ -278,21 +271,17 @@
                 "issues": "https://github.com/chipmob/yii2-attachment/issues?state=open",
                 "source": "https://github.com/chipmob/yii2-attachment"
             },
-            "time": "2020-12-01T20:19:40+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "chipmob/yii2-user",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/chipmob/yii2-user.git",
-                "reference": "fedf06e3cc6b1d240415154f7550eb2f9a31aed8"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/chipmob/yii2-user/zipball/fedf06e3cc6b1d240415154f7550eb2f9a31aed8",
-                "reference": "fedf06e3cc6b1d240415154f7550eb2f9a31aed8",
-                "shasum": ""
+                "type": "path",
+                "url": "../yii2-user",
+                "reference": "fedf06e3cc6b1d240415154f7550eb2f9a31aed8"
             },
             "require": {
                 "ext-iconv": "*",
@@ -310,7 +299,6 @@
                 "symfony/polyfill-intl-idn": "*",
                 "symfony/polyfill-mbstring": "*"
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "extra": {
                 "bootstrap": "chipmob\\user\\Bootstrap"
@@ -340,7 +328,9 @@
                 "issues": "https://github.com/chipmob/yii2-user/issues?state=open",
                 "source": "https://github.com/chipmob/yii2-user"
             },
-            "time": "2020-11-24T08:11:32+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "dmstr/yii2-adminlte-asset",
